@@ -2,7 +2,7 @@
         const gridContainer = document.getElementById('grid');
         const daysInJanuary = 19;
         const daysInFebruary = 28;
-        const daysInMarch = 26;
+        const daysInMarch = 28;
 
         let totalDays = daysInJanuary + daysInFebruary + daysInMarch;
 
