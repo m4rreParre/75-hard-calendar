@@ -19,32 +19,32 @@ body > .main-container{
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    height: 90vh;
 }	
 .mental-logs{
+    margin: 40px 0 0 0;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
     margin-bottom: 2rem;
     background-color: #dddddd;
+    height: 35vh;
 }
 .container{
     display: flex;
     flex-direction: column;
     width: 40%;
-    margin-bottom: 2rem;
-    margin: 10px;
     height: 100%;
 }
 .progress-photo{
     border-radius: 10px;
-    margin:10px 0 0 0;
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     background-color: #dddddd;
+    height: 35vh;
 }
 .checkbox-holder{
     background-color: #dddddd;
@@ -67,6 +67,25 @@ div {
     text-align: center;
 }
 
+input[type="text"]{
+    font-family: "Chivo Mono", serif;
+    font-weight: 400;
+    display: block;
+    background: #767676 ;
+    color: white;
+    box-shadow: none;
+    border-radius: 10px;
+    height: 80%;
+    width: 90%;
+    border: none;
+    text-align: left;
+
+}
+input[type="text"]:focus{
+    border: 1px solid #dddddd;
+    outline: none; 
+}
+
 #grid{
     width: 100%;
     display: grid;
@@ -77,9 +96,22 @@ div {
     width: 80%;
     margin: 0 auto;
 }
-
+label{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Chivo Mono", serif;
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+label > p{
+    margin: 0 0 0 20px;
+    padding: 0;
+    text-align: left;
+}
 input[type="checkbox"] {
-    width: 4em;
+    min-width: 4em;
     height: 3.3rem;
     outline: none;
     border: none;
@@ -90,13 +122,13 @@ input[type="checkbox"] {
 input[type="checkbox"]:checked {
     background-color: rgb(124, 228, 158);
 }
-input:hover {
+input[type="checkbox"]:hover {
     cursor: pointer;
     background-color: rgb(19, 19, 19);
 }
 @media screen and (min-width: 1300px) {
 input[type="checkbox"] {
-    width: 6em;
+    min-width: 6em;
     height: 4.6rem;
 }
     
