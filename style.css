@@ -26,6 +26,7 @@ body > .main-container{
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 40vh;
     margin-bottom: 2rem;
     background-color: #dddddd;
 }
@@ -43,6 +44,7 @@ body > .main-container{
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 50%;
     margin-bottom: 2rem;
     background-color: #dddddd;
 }
@@ -52,6 +54,9 @@ body > .main-container{
     display:flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-around;
+    height: 95%;
+    border-radius: 10px;
 }
 h1 {
     font-family: "Chivo Mono", serif;
